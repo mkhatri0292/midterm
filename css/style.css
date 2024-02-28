@@ -14,6 +14,14 @@ header{
     font-variant: normal;
     color: #f1f1f1;
 }
+.cathead{
+    display: inline;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    text-decoration: double;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style:Bold;
+}
 .category {
     display: flex;
     flex-wrap: nowrap;
@@ -36,21 +44,43 @@ header{
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    width: 100%;
 } 
+.latesthead{
+    display: inline;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    text-decoration: double;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style:Bold;
+}
+
 .latest {
     display: flex;
     flex-wrap: nowrap;
     background-color:azure;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
+img { 
+    width: 100%; 
+}
 .latest > div {
     background-color: #f1f1f1;
     width: 20%;
     margin: 2.5%;
-    text-align: center;
     align-items: center;
-    line-height: 100px;
+    text-align: center;
+    line-height: 1em;
 }  
+
+.trendinghead{
+    display: inline;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    text-decoration: double;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style:Bold;
+}
 
 
 .trending {
@@ -61,13 +91,21 @@ header{
 }
 .trending > div {
     background-color: #f1f1f1;
-    width: 25%;
-    margin: 10px;
+    width: 20%;
+    margin: 2.5%;
     text-align: center;
-    line-height: 200px;
-    font-size: 30px;  
+    line-height: 1em;
 }  
 
+.foot{
+    display: inline;
+    background-color: #643467;
+    text-align: center;
+    text-decoration: double;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style:Bold;
+
+}
 
 nav{
     background-color: orangered;
